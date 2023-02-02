@@ -3,7 +3,7 @@ package com.java6.basics;
 public class Main {
     static int z; // Global
     public static void main(String[] args) {
-
+        //Hi
         // Hi this is test github
         System.out.println(z);
         z = 50;//Update  // Set value
