@@ -7,6 +7,55 @@ public class Main {
     // static double zz;
     public static void main(String[] args) {
 
+        /*int no1 = 50, no2 = 30, no3 = 20, no4 = 10;
+
+        double result = (no1 + no2 + no3 + no4) / 4.0;
+
+        System.out.println("Result:" + result);
+
+
+        int x = 1;
+        //x = x + 1;
+        x += 1;
+        x = x * 100; // x*=100
+        x = x % 2;//x%=2*/
+
+        int x = 0;
+       // x + 3;
+        System.out.println(x = x + 1);
+        System.out.println(x);
+
+
+        System.out.println(x);
+
+       /* int no1 = 50;
+        int no2 = 30;
+        int no3 = 20;
+        int no4 = 10;
+
+        double result = no1 + no2 + no3 + no4;
+        double ava = result / 4; //27.5
+        System.out.println(ava);
+        */
+
+/*
+
+        int x = 50;
+        System.out.println(x);
+        double d = x;
+        System.out.println(d);
+
+
+        long xx =(long) d;
+        System.out.println(xx);
+
+        float ff = xx;
+        int w = (int)ff;
+
+
+*/
+
+/*
         long ddd = 1000000000000L;
         System.out.println(zz);
         zz = 90.6;
@@ -46,7 +95,7 @@ public class Main {
         System.out.println("Value is " + x);
 
 
-        System.out.println(z);
+        System.out.println(z);*/
     }
 
     public void add() {
