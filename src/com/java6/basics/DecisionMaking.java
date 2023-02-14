@@ -4,7 +4,88 @@ import java.util.Scanner;
 
 public class DecisionMaking {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
+
+        String word = scanner.nextLine();
+        switch (word) {
+            case "hi":
+                System.out.println("Greeting");
+                break;
+            case "bye":
+                System.out.println("GO to hell");
+                break;
+            default:
+                System.out.println("Any word ");
+        }
+
+
+        /*System.out.println("Plz enter number");
+        int number = scanner.nextInt();
+
+        switch (number) {
+            case 1:
+                System.out.println("1");
+                break;
+            case 2:
+            case 3:
+                System.out.println("2 Or 3");
+                break;
+            case 4:
+                System.out.println("4");
+                break;
+        }
+*/
+
+
+
+        /*if (number > 6 || number < 1) {
+            System.out.println("not correct to add" + number);
+            return;
+        }*/
+
+        /*switch (number) {
+            case 1:
+                System.out.println("1");
+                break;
+            case 2:
+                System.out.println("2");
+                break;
+            case 3:
+                System.out.println("3");
+                break;
+            case 4:
+                System.out.println("4");
+                break;
+            case 5:
+                System.out.println("5");
+                break;
+            case 6:
+                System.out.println("6");
+                break;
+            default:
+                System.out.println("not correct to add " + number);
+        }*/
+
+        /*if (number == 1) {
+            System.out.println("1");
+        } else if (number == 2) {
+            System.out.println("2");
+
+        } else if (number == 3) {
+            System.out.println("3");
+
+        } else if (number == 4) {
+            System.out.println("4");
+
+        } else if (number == 5) {
+            System.out.println("5");
+
+        } else  {
+            System.out.println("6");
+        }*/
+
+        /*Scanner scanner = new Scanner(System.in);
         System.out.println("Plz enter line");
         String line = scanner.nextLine();
 
@@ -16,7 +97,7 @@ public class DecisionMaking {
             System.out.println("Up to 5 ");
         }else if(!line.equals("HI")){
             System.out.println("not hi");
-        }
+        }*/
 
        /* System.out.println("Plz enter mark");
         int mark = scanner.nextInt();
