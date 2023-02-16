@@ -10,8 +10,112 @@ public class Loops {
         System.out.println("Hello");//2
         System.out.println("Hello");//3
         System.out.println("Hello");//4*/
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Plz enter number");
+        /*Scanner scanner = new Scanner(System.in);
+
+        String ss;
+        for(;;){
+            System.out.println("Plz enter word");
+             ss = scanner.nextLine();
+             if(ss.equalsIgnoreCase("hi")){
+                 System.out.println("Found");
+                 break;
+             }
+        }*/
+
+        int i = 0;
+        for (;; ) {
+            if(i<5){
+                break;
+            }
+            System.out.println(i);
+            i++;
+        }
+        /*Scanner scanner = new Scanner(System.in);
+        int x;
+        int max  = 0;
+        int min = 0;
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Add new number");
+            x = scanner.nextInt();
+            if (i == 0) {
+                max = x;
+                min = x;
+            }
+            if (max < x) {
+                max = x;
+            }
+            if(min>x){
+                min = x;
+            }
+        }
+        System.out.println("Max is " + max);
+        System.out.println("MIn is " + min);*/
+
+
+        /*int sum = 0;
+        for (int i = 0; i < 5; i++) {
+            System.out.println(i);
+            sum += i;
+        }
+        System.out.println(sum);*/
+
+
+
+        /*int i = 5;
+        while (i<5){
+            System.out.println("Hi");
+        }*/
+
+       /* int i = 5;
+        do {
+            System.out.println("hi");
+        }while (i<5);*/
+
+        /*Scanner scanner = new Scanner(System.in);
+        int i = 0;
+        while (i < 4) {
+            i++;
+            if (i == 3) {
+                continue;
+            }
+            if(i==5){
+                break;
+            }
+            System.out.println(i);
+        }*/
+
+        /*System.out.println("Plz enter Strings");
+        String s = scanner.nextLine();
+        while (true) {
+            if (s.equalsIgnoreCase("stop")) {
+                System.out.println("App is Stopped");
+                break;
+            }
+            if (s.equalsIgnoreCase("run")) {
+                System.out.println(s);
+                s = scanner.nextLine();
+                System.out.println("App is running");
+                continue;
+            }
+            System.out.println(s);
+            s = scanner.nextLine();
+        }*/
+        /*System.out.println("Plz enter Strings");
+        String s = scanner.nextLine();
+        while (!s.equalsIgnoreCase("Stop")){
+            *//*if(s.equalsIgnoreCase("stop")){
+                System.out.println("App is Stopped");
+                return;
+            }*//*
+            System.out.println(s);
+            s = scanner.nextLine();
+        }*/
+
+
+
+
+        /*System.out.println("Plz enter number");
+
         int num = scanner.nextInt();
         while (true){
             if(num==0){
@@ -20,7 +124,7 @@ public class Loops {
             System.out.println("Correct");
             System.out.println("Plz enter new number");
             num = scanner.nextInt();
-        }
+        }*/
         /*while (num!=0){
             System.out.println("Correct");
             System.out.println("Plz enter new number");
