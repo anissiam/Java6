@@ -5,6 +5,52 @@ import java.util.Scanner;
 public class Loops {
     public static void main(String[] args) {
 
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j <= i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+
+
+       /* for(int i = 0 ; i <4 ; i++){
+            System.out.println("Week" + (i+1));
+            for(int j= 0 ; j <7 ;j++){
+                System.out.print("Day" + (j + 1) + "  ");
+            }
+            System.out.println();
+        }*/
+
+
+
+        /*for(int i = 0 ; i<3 ; i++){
+            for(int j = 0 ; j<3 ; j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+*/
+
+//        int i = 0;
+//        for (; i < 100; System.out.println(i)) {
+//
+//            i += 2;
+//        }
+
+
+        /*Scanner scanner = new Scanner(System.in);
+        int num;
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Plz enter num");
+            num = scanner.nextInt();
+            if(num%2==0){
+                System.out.println("EVen");
+            }else {
+                System.out.println("Odd");
+            }
+        }*/
+
         /*System.out.println("Hello"); //0
         System.out.println("Hello");//1
         System.out.println("Hello");//2
@@ -22,14 +68,14 @@ public class Loops {
              }
         }*/
 
-        int i = 0;
-        for (;; ) {
-            if(i<5){
+        /*int i = 0;
+        for (; ; ) {
+            if (i < 5) {
                 break;
             }
             System.out.println(i);
             i++;
-        }
+        }*/
         /*Scanner scanner = new Scanner(System.in);
         int x;
         int max  = 0;
