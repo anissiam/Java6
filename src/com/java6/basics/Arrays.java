@@ -4,8 +4,22 @@ import java.util.Scanner;
 
 public class Arrays {
     public static void main(String[] args) {
+
+        String[][] month = {{"sat" , "Sun" , "Mon" , "Tus" , "Wend" , "Thr", "Fri"},
+                {"sat" , "Sun" , "Mon" , "Tus" , "Wend" , "Thr" ,"Fri"},
+                {"sat" , "Sun" , "Mon" , "Tus" , "Wend" , "Thr", "Fri"},
+                {"sat" , "Sun" , "Mon" , "Tus" , "Wend" , "Thr", "Fri"}};
+
+
+        for (int i = 0; i < month.length; i++) {
+            System.out.println("Week" + (i + 1));
+            for (int j = 0; j < month[i].length; j++) {
+                System.out.print(month[i][j] + "  ");
+            }
+            System.out.println();
+        }
         //int nums[][] = new int[3][5];
-        int nums1[][] = {{1,5,3}, {5,8,9 , 9}, {1,8,9}};
+        /*int nums1[][] = {{1,5,3}, {5,8,9 , 9}, {1,8,9}};
         System.out.println(nums1.length); // Row count
         System.out.println(nums1[0].length);
         for (int i = 0; i < nums1.length; i++) {
@@ -13,7 +27,7 @@ public class Arrays {
                 System.out.print(nums1[i][j] + "  ");
             }
             System.out.println();
-        }
+        }*/
 
 
 
