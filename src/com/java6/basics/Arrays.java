@@ -4,8 +4,21 @@ import java.util.Scanner;
 
 public class Arrays {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int nums[] = new int[10];
+        int min = 0;
+        int max = 0;
 
-        String[][] month = {{"sat" , "Sun" , "Mon" , "Tus" , "Wend" , "Thr", "Fri"},
+        for (int i = 0; i < nums.length; i++) {
+            System.out.println("Plz enter nums["+i+"]");
+            nums[i] = scanner.nextInt();
+            if(i==0){
+                max = nums[i];
+                min = nums[i];
+            }
+
+        }
+        /*String[][] month = {{"sat" , "Sun" , "Mon" , "Tus" , "Wend" , "Thr", "Fri"},
                 {"sat" , "Sun" , "Mon" , "Tus" , "Wend" , "Thr" ,"Fri"},
                 {"sat" , "Sun" , "Mon" , "Tus" , "Wend" , "Thr", "Fri"},
                 {"sat" , "Sun" , "Mon" , "Tus" , "Wend" , "Thr", "Fri"}};
@@ -17,7 +30,7 @@ public class Arrays {
                 System.out.print(month[i][j] + "  ");
             }
             System.out.println();
-        }
+        }*/
         //int nums[][] = new int[3][5];
         /*int nums1[][] = {{1,5,3}, {5,8,9 , 9}, {1,8,9}};
         System.out.println(nums1.length); // Row count

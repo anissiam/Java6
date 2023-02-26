@@ -4,14 +4,23 @@ import java.util.Scanner;
 
 public class Method {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        System.out.println(printName("Anis "));
+
+        /*add();
+        add(10, 20);
+        add("10","20");
+        add("10", "20", 10);
+        add("10", "20", 'a');*/
+
+        //maxMin();
+       /* Scanner scanner = new Scanner(System.in);
         System.out.println("Plz enter x");
         int x = scanner.nextInt();
         System.out.println("Plz enter x");
-        int y = scanner.nextInt();
+        int y = scanner.nextInt();*/
 
 
-        System.out.println("1.Add\n2.Sub\n3.Multi\n4.div\n5.Exit");
+        /*System.out.println("1.Add\n2.Sub\n3.Multi\n4.div\n5.Exit");
         int c = scanner.nextInt();
         switch (c) {
             case 1:
@@ -25,7 +34,7 @@ public class Method {
                 break;
             case 5:
                 System.exit(0);
-        }
+        }*/
 
        /* add2(x,y);
         sub2(x, y);*/
@@ -37,6 +46,34 @@ public class Method {
 
     }
 
+    public static void maxMin(){
+        Scanner scanner = new Scanner(System.in);
+        int min=0;
+        int max=0;
+        int num;
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Plz enter num ");
+            num = scanner.nextInt();
+            if(i==0){
+                max = num;
+                min = num;
+                continue;
+            }
+            if(max<num){
+                max = num;
+            }
+            if(min>num ){
+                min = num;
+            }
+        }
+        System.out.println("Max is " + max +"\n"+
+                "Min is " + min);
+    }
+
+    public static String printName(String name){
+
+        return name.trim();
+    }
     public static void ava() {
         int ava = add1() / 2;
         System.out.println(ava);
@@ -72,6 +109,26 @@ public class Method {
         int y = scanner.nextInt();
         int z = x + y;
         System.out.println(z);
+    }
+
+    public static void add(int x , int y) {
+
+        int z = x + y;
+        System.out.println(z);
+    }
+
+    public static void add(String x , String y) {
+
+        System.out.println(x + y);
+    }
+
+    public static void add(String x, String y, int w) {
+
+        System.out.println(x + y);
+    }
+    public static void add(String x, String y, char w) {
+
+        System.out.println(x + y);
     }
 
     public static int add1() {
@@ -110,5 +167,7 @@ public class Method {
     public static int multi(int s, int v) {
         return (s * v);
     }
+
+
 
 }
