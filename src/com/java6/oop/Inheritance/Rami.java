@@ -6,4 +6,11 @@ public class Rami extends Person{
     public void printFamily(){
         System.out.println(family);
     }
+
+    @Override
+    public void printData() {
+        System.out.println(super.name);
+        System.out.println(name);
+
+    }
 }
