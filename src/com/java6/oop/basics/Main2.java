@@ -9,7 +9,7 @@ public class Main2 {
         StaticLecture.setZ(10);
         System.out.println(StaticLecture.getZ());*/
 
-        System.out.println("Math Class");
+        /*System.out.println("Math Class");
         System.out.println(Math.PI);
         System.out.println(Math.abs(-100));
         System.out.println(Math.ceil(3.7));
@@ -20,9 +20,9 @@ public class Main2 {
         System.out.println(Math.min(10,50));
         System.out.println(Math.sqrt(9));
         System.out.println(Math.pow(2,3));
-        System.out.println((int)(Math.random()*100));
-
-
+        System.out.println((int)(Math.random()*100));*/
+        Calc.add(10, 50);
+        Calc.div(10, 0);
 
     }
 }
