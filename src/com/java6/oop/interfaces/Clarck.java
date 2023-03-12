@@ -4,14 +4,16 @@ public class Clarck extends Person implements SuperHero{
     private String major;
 
     public Clarck() {
+
     }
 
     public Clarck(String major) {
+
         this.major = major;
     }
 
-    public Clarck(String name, int tall, int age, String major) {
-        super(name, tall, age);
+    public Clarck(String name, int age, int tall, String major) {
+        super(name, age, tall);
         this.major = major;
     }
 
@@ -33,7 +35,7 @@ public class Clarck extends Person implements SuperHero{
 
     @Override
     public void fly() {
-     System.out.println("Fly");
+        System.out.println("FLy");
     }
 
     @Override

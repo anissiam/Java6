@@ -2,18 +2,17 @@ package com.java6.oop.interfaces;
 
 public class Main {
     public static void main(String[] args) {
-        BMW bmw = new BMW("BMW 2023", 200.0);
-        bmw.convertSpeed();
-        bmw.battarySize();
-        bmw.charge();
-        System.out.println(bmw.iSAI());
-       /* Clarck clarck = new Clarck();
-        clarck.fly();
+
+
+        Ford ford = new Ford("2023",100,"Blue");
+        ford.Barraty();
+        ford.size();
+        ford.power();
+        ford.showSpeed();
+
+        /*Clarck clarck = new Clarck("Super nam",100,180,"news");
         clarck.speed();
-        System.out.println(clarck.toString());
-
-        Batman batman = new Batman();
-        batman.fly();*/
-
+        clarck.fly();
+        System.out.println(clarck.toString());*/
     }
 }

@@ -2,16 +2,16 @@ package com.java6.oop.interfaces;
 
 public class Person {
     private String name;
-    private int tall;
     private int age;
+    private int tall;
 
     public Person() {
     }
 
-    public Person(String name, int tall, int age) {
+    public Person(String name, int age, int tall) {
         this.name = name;
-        this.tall = tall;
         this.age = age;
+        this.tall = tall;
     }
 
     public String getName() {
@@ -22,14 +22,6 @@ public class Person {
         this.name = name;
     }
 
-    public int getTall() {
-        return tall;
-    }
-
-    public void setTall(int tall) {
-        this.tall = tall;
-    }
-
     public int getAge() {
         return age;
     }
@@ -38,12 +30,20 @@ public class Person {
         this.age = age;
     }
 
+    public int getTall() {
+        return tall;
+    }
+
+    public void setTall(int tall) {
+        this.tall = tall;
+    }
+
     @Override
     public String toString() {
         return "Person{" +
                 "name='" + name + '\'' +
-                ", tall=" + tall +
                 ", age=" + age +
+                ", tall=" + tall +
                 '}';
     }
 }
