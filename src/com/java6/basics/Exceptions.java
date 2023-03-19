@@ -10,9 +10,15 @@ public class Exceptions {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
-
         try {
+            int[] nums = new int[5];
+            nums[5] = 10;
+            System.out.println(nums[1] / 0);
+        }catch (ArrayIndexOutOfBoundsException | ArithmeticException e){
+            System.out.println(e);
+        }
+
+        /*try {
             //int num = scanner.nextInt();
 
             System.out.println(10/0);//Throw
@@ -31,7 +37,7 @@ public class Exceptions {
             System.out.println("Finally");
         }
 
-        System.out.println("Done");
+        System.out.println("Done");*/
 
     }
 }
